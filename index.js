@@ -60,12 +60,22 @@
 // addUp(12)
 
 // 06 - Time
-const format = (num) => {
-    let secondes = num
-    let minutes = Math.floor(secondes /60)
-    secondes = secondes - minutes * 60
-    let hours = Math.floor(minutes / 60)
-    minutes = minutes - hours * 60
-    console.log(`${hours}:${minutes}:${secondes}`)
+// const format = (num) => {
+//     let secondes = num
+//     let minutes = Math.floor(secondes /60)
+//     secondes = secondes - minutes * 60
+//     let hours = Math.floor(minutes / 60)
+//     minutes = minutes - hours * 60
+//     console.log(`${hours}:${minutes}:${secondes}`)
+// }
+// format(3700)
+
+// 07 - Password generation
+const generatePassword = (num) => {
+    random = Math.floor(Math.random() * 26) + 65
+
+
+
+
+
 }
-format(3700)
