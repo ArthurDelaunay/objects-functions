@@ -74,7 +74,6 @@
 // const generatePassword = (num) => {
 //     let result = ""
 //     if (num > 6 && num < 15){
-        
 //         for(i=0; i < num; i += 1){
 //             let random = Math.floor(Math.random() * 26) + 65
 //             result = result + String.fromCharCode(random)
@@ -88,24 +87,24 @@
 // generatePassword(12)
 
 // 08 - Let's play
-const launchDice = (numberOfDice) => {
-    let total = 0
-    for (i = 0; i < numberOfDice; i += 1){
-        let random = Math.ceil(Math.random() * 6)
-        total = total + random
-    }
-    return(total)
-}
-const player1 = launchDice(5)
-const player2 = launchDice(5)
-// console.log(`Le joueur 1 a fait un total de ${player1}`)
-// console.log(`Le joueur 2 a fait un total de ${player2}`)
-if (player1 > player2){
-    console.log(`Le joueur 1 a gagné avec un total de ${player1}`)
-}
-else if (player1 < player2){
-    console.log(`Le joueur 2 a gagné avec un total de ${player2}`)
-}
-else {
-    console.log(`Les 2 joueurs ont fait le même score de ${player1}`)
-}
+// const launchDice = (numberOfDice) => {
+//     let total = 0
+//     for (i = 0; i < numberOfDice; i += 1){
+//         let random = Math.ceil(Math.random() * 6)
+//         total = total + random
+//     }
+//     return(total)
+// }
+// const player1 = launchDice(5)
+// const player2 = launchDice(5)
+// // console.log(`Le joueur 1 a fait un total de ${player1}`)
+// // console.log(`Le joueur 2 a fait un total de ${player2}`)
+// if (player1 > player2){
+//     console.log(`Le joueur 1 a gagné avec un total de ${player1}`)
+// }
+// else if (player1 < player2){
+//     console.log(`Le joueur 2 a gagné avec un total de ${player2}`)
+// }
+// else {
+//     console.log(`Les 2 joueurs ont fait le même score de ${player1}`)
+// }
